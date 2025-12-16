@@ -223,7 +223,7 @@ const Navbar = ({ onViewChange, currentView, user, theme, toggleTheme, lang, tog
 const PostList = ({ posts, onViewPost, onDeletePost, userId, loading, lang, isAdmin }) => {
   const introText = {
     en: { title: "👋 Hello Visitors, Welcome to Lea's Log", content: "Hi, this is Lea. I'm documenting my learning notes in this blog. Here you'll find my thoughts on software, experiments with code, and everything in between." },
-    zh: { title: "👋你好啊陌生人，欢迎来逛我的Blog", content: "你好👋，这里是刘墨涵的博客，这里有我尝试在情绪翻涌时与文字相伴的记录，或引用，或原创。欢迎浏览" }
+    zh: { title: "👋你好啊陌生人，欢迎来逛我的Blog", content: "你好👋，这里是Lea的博客，这里有我尝试在情绪翻涌时与文字相伴的记录，或引用，或原创。欢迎浏览" }
   };
 
   if (loading) return <div className="flex flex-col items-center justify-center py-20 text-gray-400 font-serif"><Loader2 className="w-6 h-6 animate-spin mb-4" /><p>Loading...</p></div>;
