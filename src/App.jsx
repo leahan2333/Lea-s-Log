@@ -222,7 +222,7 @@ const Navbar = ({ onViewChange, currentView, user, theme, toggleTheme, lang, tog
 
 const PostList = ({ posts, onViewPost, onDeletePost, userId, loading, lang, isAdmin }) => {
   const introText = {
-    en: { title: "👋 Hello Visitors, Welcome to Lea's Log", content: "Hi, this is Lea. I'm documenting my learning notes in this blog. Here you'll find my thoughts on software, experiments with code, and everything in between." },
+    en: { title: "👋 Hello Visitors, Welcome to Lea's Log", content: "Hi, this is Lea. I'm documenting my learning notes in this blog. Here you'll find my thoughts on code, life, and everything in between." },
     zh: { title: "👋你好啊陌生人，欢迎来逛我的Blog", content: "你好👋，这里是Lea的博客，这里有我尝试在情绪翻涌时与文字相伴的记录，或引用，或原创。欢迎浏览" }
   };
 
@@ -311,8 +311,8 @@ const FAQ = ({ lang }) => (
   <div className="py-8 font-serif animate-in fade-in duration-500 prose dark:prose-invert max-w-none text-gray-800 dark:text-gray-300">
     <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Frequently Asked Questions</h1>
     <div className="space-y-8">
-      <div><h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">What is Lea's Log?</h3><p>This is a personal blog where I share my thoughts, tutorials, and experiences in software development.</p></div>
-      <div><h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">How can I contact you?</h3><p>You can reach out via email or follow me on social media. (Add your details here!)</p></div>
+      <div><h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">What is Lea's Log?</h3><p>This is a personal blog where I share my thoughts in life, and experiences in software development.</p></div>
+      <div><h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">How can I contact you?</h3><p>You can reach out via my email (lealiu7788@gmail.com)</p></div>
       <div><h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Can I use your code?</h3><p>Most code snippets are open source unless stated otherwise. Feel free to learn from them!</p></div>
     </div>
   </div>
